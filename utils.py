@@ -5,12 +5,6 @@ import os
 import pandas as pd
 
 
-def get_country_index():
-    """
-    Get index of country given list of country names. Helpful in keeping track of the world.
-    """
-
-
 def read_resources():
     """
     Accepts one string parameter:
