@@ -37,15 +37,3 @@ def read_transform_templates():
     2. a list of numpy array of all input templates
     3. a list of numpy array of all output templates
     """
-
-
-def print_outputs():
-    """
-    Writes solutions to the given file name.
-    Any existing content with the same file name is cleared; all intermediate directories will
-    be created if necessary, but it's okay if they're already there.
-    Uses the __str__ method of the Solution class.
-
-    @input output_schedule_filename     desired output directory
-    @input solutions                    list of solutions
-    """
