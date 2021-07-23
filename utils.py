@@ -13,7 +13,6 @@ def read_resources():
     Returns:
     1. an numpy array of numbers that represents the respective weight for each resources.
     """
-    return None
 
 
 def read_initial_world():
