@@ -14,8 +14,7 @@ class World:
     and search for schedules.
     """
 
-    def __init__(self, country_list, my_country_index, time, depth_bound,
-                 frontier_max_size, num_output_schedules):
+    def __init__(self):
         """
         Initialize a world
 
@@ -38,7 +37,7 @@ class World:
         1. the expected utility of a country
         """
 
-    def get_discounted_reward(self, country_index):
+    def get_adjusted_contribution(self):
         """
         Accepts:
         1. the index of a country for which the expected utility is calculated.
@@ -60,25 +59,7 @@ class World:
         if otherwise.
         """
 
-    def generate_successor(self):
-        return None  # placeholder
-
-    def option(self):
-        return None  # placeholder
-
-    def transfer_country(self):
-        return None  # placeholder
-
-    def resource_to_trade(self):
-        return None  # placeholder
-
-    def max_num_transform(self):
-        return None  # placeholder
-
-    def search(self):
-        return None  # placeholder
-
-    def country_acceptance_prob(self):
+    def country_acceptance_probability(self):
         """
         Calculate the acceptance probability of a country
 
